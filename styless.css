@@ -948,7 +948,6 @@ rounded-circle:hover{
  img {
   image-rendering: auto;
   image-rendering: crisp-edges;
-  image-rendering: pixelated;
 }
 
 .youtubeFrame{
