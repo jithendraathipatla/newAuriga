@@ -190,7 +190,10 @@ img.adjusting_image{
   height:855px !important;
 }
 img.nav_image{
-  margin-left:0px !important;
+  margin-left:-102px !important;
+}
+.carousel-inner h1{
+ font-size: 26px;
 }
 .navbar-dark .navbar-toggler {
   /* color: rgba(255,255,255,.5); */
