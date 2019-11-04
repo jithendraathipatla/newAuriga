@@ -155,9 +155,12 @@ background-color: #06c;
     margin-left: 26px !important;
 }
 .popup{
-  
   top: 19% !important;
- 
+}
+.container2 .map{
+  flex:block;
+  padding:5px;
+  
 }
 .modal-dialog {
   position: relative;
