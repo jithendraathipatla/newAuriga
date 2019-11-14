@@ -53,7 +53,18 @@ background-color: #06c;
     color:#565F65;
     margin-right:25px;
 }
+
+link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color:#565F65 !important;
+}
+
+link:focus, .navbar-dark .navbar-nav .nav-link:active {
+  color:#565F65 !important;
+}
 .navbar-dark .navbar-nav .nav-link:hover{
+  color: #ED2A28;
+}
+.navbar-dark .navbar-nav .nav-link:active{
   color: #ED2A28;
 }
   .container1 {
