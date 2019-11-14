@@ -8,7 +8,7 @@
 		$headers="From: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){
-			echo "<h1>Sent Successfully! Thank you"." ".$email.", We will contact you shortly!</h1>";
+			echo "<h1>Sent Successfully! Thank you, We will contact you shortly!</h1>";
 		}
 		else{
 			echo "Something went wrong!";
