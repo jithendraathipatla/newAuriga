@@ -6,7 +6,7 @@
 		$msg=$_POST['client_message'];
 
 		$to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
-		$subject='Auriga';
+		$subject='Concorde Auriga';
 		$message="Project_Name:"."Concorde Auriga"."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
 		$headers="From: ".$email;
 
