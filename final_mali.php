@@ -7,7 +7,7 @@
 
 		$to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
 		$subject='Concorde Auriga';
-		$message="Project_Name:"."Concorde Auriga"."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
+		$message="Project_Name:"."Concorde Auriga"."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Email :".$email."\n"."Wrote the following :"."\n\n".$msg;
 		$headers="From: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){
