@@ -136,24 +136,29 @@ else {
     $("html, body" ).animate({scrollTop:600}, 'slow');
     return false;
   });
+
+  $("#cd").click(function(){
+    $("html, body" ).animate({scrollTop:1200}, 'slow');
+    return false;
+  });
  
   $("#ij").click(function(){
-    $("html, body" ).animate({scrollTop:1400}, 'slow');
+    $("html, body" ).animate({scrollTop:1550}, 'slow');
     return false;
   });
 
   $("#ef").click(function(){
-    $("html, body" ).animate({scrollTop:2000}, 'slow');
+    $("html, body" ).animate({scrollTop:2150}, 'slow');
     return false;
   });
 
   $("#fg").click(function(){
-    $("html, body" ).animate({scrollTop:2400}, 'slow');
+    $("html, body" ).animate({scrollTop:2600}, 'slow');
     return false;
   });
 
   $("#gh").click(function(){
-    $("html, body" ).animate({scrollTop:3150}, 'slow');
+    $("html, body" ).animate({scrollTop:3210}, 'slow');
     return false;
   });
 
