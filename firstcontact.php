@@ -5,7 +5,7 @@
 		$phone=$_POST['mobile'];
 		
 
-		$to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
+		$to='livexcellence1@gmail.com,jithendraathipatla@gmail.com'; // Receiver Email ID, Replace with your email ID
 		$subject='Concorde Auriga';
 		$message="Project_name:"."Concorde Auriga"."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Email:".$email."\n";
 		$headers="From: ".$email;

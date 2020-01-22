@@ -5,7 +5,7 @@ if (isset($_POST['submit'])) {
 	$phone = $_POST['client_phone_number'];
 	$msg = $_POST['client_message'];
 
-	$to = 'livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
+	$to = 'livexcellence1@gmail.com,jithendraathipatla@gmail.com'; // Receiver Email ID, Replace with your email ID
 	$subject = 'Concorde Auriga';
 	$message = "Project_Name:" . "Concorde Auriga" . "\n" . "Name :" . $name . "\n" . "Phone :" . $phone . "\n" . "Email :" . $email . "\n" . "Wrote the following :" . "\n\n" . $msg;
 	$headers = "From: " . $email;
